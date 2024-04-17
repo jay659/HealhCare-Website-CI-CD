@@ -29,7 +29,6 @@ jobs:
         file: Dockerfile
         push: true
         tags: jaypatel132/healthcare-app:${{ github.sha }}
-        no-cache: true
 
     - name: Deploy on EC2
       uses: appleboy/ssh-action@master
