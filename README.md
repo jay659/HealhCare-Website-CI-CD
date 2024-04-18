@@ -1,21 +1,23 @@
-# Health Plus
+# Set Up Continuous Integration and Deployment on EC2 Using Docker
 
-Welcome to the Health Plus project repository! This is a React-based website aimed at providing accessible and personalized healthcare services to users. The website allows users to connect with expert doctors, schedule appointments, and receive expert medical advice.
+Set up your website effortlessly on EC2 with Docker, using a simple CI/CD pipeline. Automate the deployment process, ensuring your website is always up-to-date. Experience seamless hosting with Docker on EC2.
 
 ## Project Overview
 
-- **Website**: [Health Plus](https://alkaison.github.io/Health-Plus/ "Health Plus")
+- **AWS Service**: EC2
 - **Framework**: React.js
-- **Deployment**: GitHub Pages
-- **Libraries**: React-Toastify, React Router DOM, FontAwesomeIcon
+- **CI/CD**: Github Action
+- **Tool**: Dcoker
+- **Libraries**: React-simple-chatbot, React Router DOM, FontAwesomeIcon
 
 ## Features
 
-- Easily schedule appointments with the specialists.
-- Engage in virtual consultations to receive expert medical advice.
-- Responsive UI design for seamless user experience across devices.
-- Utilizes React-Toastify for notifications, React Router DOM for page routing, and FontAwesomeIcon for icons.
-- Deployed using GitHub Pages for easy access and sharing.
+- Enhance appointment scheduling with specialists seamlessly through optimized workflows.
+- Enable virtual consultations for precise medical advice with a user-friendly interface.
+- Guarantee a consistent user experience on all devices with a responsive UI.
+- Implement React-Toastify for comprehensive notifications and React Router DOM for smooth navigation.
+- Enhance visual appeal with FontAwesomeIcon for icons across your application.
+- Simplify deployment and sharing by utilizing GitHub Pages, coupled with Docker and CI/CD pipelines on EC2.
 
 ## Screenshots
 
