@@ -53,14 +53,15 @@ To run the project EC2:
 
 Follow below steps for integration 
 
-1. Add Six Variables in Repository secrets in Github Repository Setting > Secrates and Variabes > Actions
+1. Add Six Variables in Repository secrets in **Github Repository Setting > Secrates and Variabes > Actions**.
  - DOCKER_HUB_USERNAME : its user name of docker hub
  - DOCKER_HUB_PASSWORD : PAssword of Docker hub
  - EC2_HOST : Public IPv4 DNS Of EC2 Inatance
  - EC2_PORT : which should be 22
  - EC2_SSH_KEY : .pem File content
  - EC2_USERNAME : ubuntu(in my case since it is ubuntu Os)
-2. 
+2. Change you Docker Image name according to Project Need in my case i have given healthcare-app.
+   
 
    
 ## Contributing
