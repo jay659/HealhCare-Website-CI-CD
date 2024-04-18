@@ -25,10 +25,6 @@ Set up your website effortlessly on EC2 with Docker, using a simple CI/CD pipeli
 
 ![Health-Plus Image-1](https://i.postimg.cc/0Q4839KN/Health-Plus-Image1.png)
 
-## Deployment
-
-The website is deployed using GitHub Pages and can be accessed at [https://alkaison.github.io/Health-Plus/](https://alkaison.github.io/Health-Plus/).
-
 ## Getting Started
 
 To run the project locally:
