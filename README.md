@@ -25,20 +25,18 @@ Set up your website effortlessly on EC2 with Docker, using a simple CI/CD pipeli
 
 ![Health-Plus Image-1](https://i.postimg.cc/0Q4839KN/Health-Plus-Image1.png)
 
-## Getting Started
+## Getting Started With React App
 
 To run the project locally:
 
-1. Clone this repository: `git clone https://github.com/Alkaison/Health-Plus.git`
-2. Navigate to the project directory: `cd Health-Plus`
+1. Clone this repository: `git clone https://github.com/jay659/HealhCare-Website-CI-CD.git`
+2. Navigate to the project directory: `cd HealhCare-Website-CI-CD`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
-5. Open your browser and visit: `http://localhost:3000/Health-Plus`
+5. Open your browser and visit: `http://localhost:3000/`
 
 ## Contributing
 
 Contributions are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.
 
-## License
 
-This project is licensed under the [MIT License](./LICENSE "Project LICENSE").
