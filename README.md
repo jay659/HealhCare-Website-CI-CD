@@ -35,6 +35,21 @@ To run the project locally:
 4. Start the development server: `npm start`
 5. Open your browser and visit: `http://localhost:3000/`
 
+## Deployment Steps On AWS
+
+To run the project EC2:
+
+1. Create EC2 Instance
+2. Connect to Your EC2 Instance
+3. Install Docker Dependencies `sudo apt install apt-transport-https ca-certificates curl software-properties-common`
+4. Add Docker's GPG Key: `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
+5. Add Docker Repository: `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`
+6. Update Package Repositories (Again): `sudo apt update`
+7. Install Docker Engine : `sudo apt install docker-ce`
+8. Verify Docker Installation : `sudo docker --version`
+9. Manage Docker as a Non-root User : `sudo usermod -aG docker ${USER}`
+10. Start and Enable Docker Service : `sudo systemctl start docker``sudo systemctl enable docker`
+   
 ## Contributing
 
 Contributions are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.
