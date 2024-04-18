@@ -11,6 +11,7 @@ import Home from './Pages/Home/Home/Home.jsx';
 import Login from './Pages/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
 import Service from './Pages/Services/Service/Service';
+import Chatbot from './components/Chatbot/Chatbot.jsx';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
+        <Chatbot />
         <Footer />
       </Router>
     </AuthProvider>
