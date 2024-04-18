@@ -22,8 +22,8 @@ Set up your website effortlessly on EC2 with Docker, using a simple CI/CD pipeli
 ## Screenshots
 
 ### Hero Section
-
-![Health-Plus Image-1](https://i.postimg.cc/0Q4839KN/Health-Plus-Image1.png)
+[![Screenshot-343.png](https://i.postimg.cc/zDckf2R8/Screenshot-343.png)](https://postimg.cc/nMqmRkkP)
+[![Screenshot-342.png](https://i.postimg.cc/BQPBP5xD/Screenshot-342.png)](https://postimg.cc/BXsKdK7Q)
 
 ## Getting Started With React App
 
@@ -61,11 +61,9 @@ Follow below steps for integration
  - EC2_SSH_KEY : .pem File content
  - EC2_USERNAME : ubuntu(in my case since it is ubuntu Os)
 2. Change you Docker Image name according to Project Need in my case i have given healthcare-app.
-   
 
-   
-## Contributing
+## Build Your Project
 
-Contributions are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.
+Feel free to integrate this CI/CD project into your professional Project! Showcase your expertise and innovation by highlighting your adaptations or implementations of this project.
 
-
+Happy coding!
