@@ -36,7 +36,6 @@ To run the project locally:
 5. Open your browser and visit: `http://localhost:3000/`
 
 ## Deployment Steps On AWS
-
 To run the project EC2:
 
 1. Create EC2 Instance
@@ -49,6 +48,20 @@ To run the project EC2:
 8. Verify Docker Installation : `sudo docker --version`
 9. Manage Docker as a Non-root User : `sudo usermod -aG docker ${USER}`
 10. Start and Enable Docker Service : `sudo systemctl start docker``sudo systemctl enable docker`
+
+## CI/CD Integration with Docker and EC2 using Github 
+
+Follow below steps for integration 
+
+1. Add Six Variables in Repository secrets in Github Repository Setting > Secrates and Variabes > Actions
+ - DOCKER_HUB_USERNAME : its user name of docker hub
+ - DOCKER_HUB_PASSWORD : PAssword of Docker hub
+ - EC2_HOST : Public IPv4 DNS Of EC2 Inatance
+ - EC2_PORT : which should be 22
+ - EC2_SSH_KEY : .pem File content
+ - EC2_USERNAME : ubuntu(in my case since it is ubuntu Os)
+2. 
+
    
 ## Contributing
 
