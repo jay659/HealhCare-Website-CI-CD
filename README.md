@@ -18,6 +18,7 @@ Set up your website effortlessly on EC2 with Docker, using a simple CI/CD pipeli
 - Implement React-Toastify for comprehensive notifications and React Router DOM for smooth navigation.
 - Enhance visual appeal with FontAwesomeIcon for icons across your application.
 - Simplify deployment and sharing by utilizing GitHub Pages, coupled with Docker and CI/CD pipelines on EC2.
+- Integrate a chatbot feature for instant assistance and inquiries, providing users with quick access to information and support, further enhancing the user experience and engagement.
 
 ## Screenshots
 
